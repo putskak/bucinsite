@@ -105,6 +105,7 @@ h2{
     }
 
     .animation {
+        display: flex;
         animation: mymove2 4s infinite;
         position: relative;
         bottom: 0;
@@ -112,7 +113,6 @@ h2{
         margin-top: 400em;
      }
      .animation > * {
-        display: flex;
         height: 7em;
     
      }
