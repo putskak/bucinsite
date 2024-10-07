@@ -73,6 +73,17 @@ h2{
    
 
 }
+.animation {
+    height: 1em;
+    width: 1em;
+    margin-top: 8em;
+    animation: mymove 4s infinite;
+    position: relative;
+}
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {left: 740px;}
+  }
 
 
 
@@ -91,6 +102,23 @@ h2{
     flex-flow: column;
     width: 100%;
     }
+    .animation {
+        display: flex;
+        height: 150px;
+        margin-top: 307em;
+        animation: mymove2 5s infinite;
+        position: relative;
+     }
+     
+     /*keyframes couple.png*/
+
+     @keyframes mymove2 {
+        0%      { left: 0;}
+        100%    { left: 215px;}
+        
+     }
+     
+     
+
+
 }
-
-
