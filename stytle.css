@@ -4,6 +4,7 @@ body{
     font-style: normal;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 .container{
     height: 80vh;
@@ -101,19 +102,24 @@ h2{
     flex-flow: column;
     width: 100%;
     }
+
     .animation {
-        display: flex;
-        height: 150px;
-        margin-top: 388em;
+        margin-top: 440em;
         animation: mymove2 4s infinite;
         position: relative;
+        bottom: 0;
+        left: 0;
+     }
+     .animation > * {
+        display: flex;
+        height: 11em;
      }
      
      /*keyframes couple.png*/
 
      @keyframes mymove2 {
         0%      { left: 0;}
-        100%    { left: 225px;}
+        100%    { left: 310px;}
         
      }
      
