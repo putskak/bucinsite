@@ -105,8 +105,8 @@ h2{
     .animation {
         display: flex;
         height: 150px;
-        margin-top: 307em;
-        animation: mymove2 5s infinite;
+        margin-top: 344em;
+        animation: mymove2 4s infinite;
         position: relative;
      }
      
@@ -114,7 +114,7 @@ h2{
 
      @keyframes mymove2 {
         0%      { left: 0;}
-        100%    { left: 215px;}
+        100%    { left: 225px;}
         
      }
      
