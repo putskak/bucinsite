@@ -104,15 +104,16 @@ h2{
     }
 
     .animation {
+        display: flex;
         animation: mymove2 4s infinite;
         position: relative;
         bottom: 0;
         left: 0;
+        margin-top: 423em;
      }
      .animation > * {
         display: flex;
         height: 7em;
-        margin-top: 423em;
      }
      
      /*keyframes couple.png*/
